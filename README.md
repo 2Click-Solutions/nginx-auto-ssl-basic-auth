@@ -1,2 +1,2 @@
-# nginx-auto-ssl-basic-auth
-Docker image for auto generation of SSL certs with basic authentication.
+# Introduction
+This is a custom image from image valian/docker-nginx-auto-ssl for auto generation of SSL certs with basic authentication.
