@@ -1,8 +1,7 @@
-FROM valian/docker-nginx-auto-ssl
+FROM valian/docker-nginx-auto-ssl:1.2.0
 
 RUN apk update && apk add --no-cache apache2-utils
 
-# instead of . use directory with your configurations
 ENV BASIC_USERNAME=admin
 ENV BASIC_PASSWORD=p4ssword
 
